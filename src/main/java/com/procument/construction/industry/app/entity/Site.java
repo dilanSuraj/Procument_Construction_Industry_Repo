@@ -53,6 +53,11 @@ public class Site {
 	public Employee getEmployee_employee_id() {
 		return employee_employee_id;
 	}
+	
+
+	public void setEmployee_employee_id(Employee employee_employee_id) {
+		this.employee_employee_id = employee_employee_id;
+	}
 
 	@Override
 	public String toString() {

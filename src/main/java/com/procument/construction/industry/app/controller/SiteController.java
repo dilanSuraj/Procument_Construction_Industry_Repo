@@ -56,6 +56,7 @@ public class SiteController {
 		if(existingSiteObj != null) {
 			existingSiteObj.setBudget(site.getBudget());
 			existingSiteObj.setLocation(site.getLocation());
+			existingSiteObj.setEmployee_employee_id(site.getEmployee_employee_id());
 			siteRepository.save(existingSiteObj);
 			
 			log.info(existingSiteObj.toString() + "\n");
